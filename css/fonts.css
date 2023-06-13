@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
+
+@font-face {
+    font-family: 'saira_condensed';
+    src: url('./../fonts/sairacondensed-semibold.woff2') format('woff2'),
+        url('./../fonts/sairacondensed-semibold.woff') format('woff'),
+        url('./../fonts/sairacondensed-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'century_gothic';
+    src: url('./../fonts/gothic-bold.woff2') format('woff2'),
+        url('./../fonts/gothic-bold.woff') format('woff'),
+        url('./../fonts/gothic-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'american_western';
+    src: url('./../fonts/american_western.woff2') format('woff2'),
+        url('./../fonts/american_western.woff') format('woff'),
+        url('./../fonts/american_western.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'airlock';
+    src: url('./../fonts/airlock.woff2') format('woff2'),
+        url('./../fonts/airlock.woff') format('woff'),
+        url('./../fonts/airlock.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tool';
+    src: url('./../fonts/tool.woff2') format('woff2'),
+        url('./../fonts/tool.woff') format('woff'),
+        url('./../fonts/tool.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

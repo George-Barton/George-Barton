@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'gt_super_display';
+    src: url('./../fonts/gt-super-display-bold.woff2') format('woff2'),
+        url('./../fonts/gt-super-display-bold.woff') format('woff'),
+        url('./../fonts/gt-super-display-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

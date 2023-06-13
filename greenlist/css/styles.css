@@ -1,0 +1,283 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header {
+    padding: 32px 0;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+footer {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'gt_super_display';
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+h1,
+.section-outro h2 {
+    font-size: 110px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 66px;
+    line-height: 1.28;
+}
+
+h3 {
+    font-size: 54px;
+    line-height: 1.32;
+}
+
+.pink-accent {
+    color: #F09C96;
+}
+
+.white-on-green {
+    background: #023A15;
+    color: #FFFFFF;
+}
+
+.pink-background {
+    background: #FFE6E2;
+}
+
+.white-background {
+    background: #FFFFFF;
+}
+
+.page-width {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+    font-size: 0;
+}
+
+.image-container>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-container {
+    display: grid;
+    grid: 1fr / repeat(2, auto);
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav>ul {
+    display: grid;
+    grid: 1fr / repeat(3, auto);
+    gap: 32px;
+    font-weight: 500;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Section Presentation.*/
+
+.section-presentation {
+    padding: 50px 0 56px;
+}
+
+.section-presentation-container {
+    display: grid;
+    grid: 1fr / repeat(2, 1fr);
+    gap: 86px;
+}
+
+.button-reference {
+    display: inline-block;
+    font-size: 0;
+    color: #023A15;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-top: 34px;
+}
+
+.button-reference>span {
+    vertical-align: middle;
+}
+
+.button-reference>span:last-child {
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+.tiny-text {
+    font-size: 12px;
+    line-height: 1.08;
+    margin-top: 30px;
+}
+
+.picture-column {
+    padding: 23px 0 0 11px;
+}
+
+.top-picture {
+    position: relative;
+    width: 322px;
+    height: 339px;
+}
+
+.bottom-picture {
+    position: relative;
+    width: 322px;
+    height: 293px;
+    margin: -12px 0 0 236px;
+}
+
+.overlay-picture {
+    position: absolute;
+    top: -27px;
+    left: -26px;
+}
+
+.underlay-picture {
+    background: url('./../img/line-background.png') no-repeat 0 11px;
+    width: 558px;
+    min-height: 661px;
+}
+
+/* Section Team.*/
+
+.section-team {
+    display: grid;
+    grid: 1fr / repeat(2, 1fr);
+    gap: 99px;
+    margin-top: 134px;
+}
+
+.section-team h2 {
+    width: 660px;
+}
+
+.section-team p {
+    width: 460px;
+    margin-top: 27px;
+}
+
+.image-left {
+    width: 557px;
+    height: 371px;
+    margin: 125px 0 -64px;
+}
+
+.image-right {
+    width: 391px;
+    height: 531px;
+    margin-top: 211px;
+}
+
+/* Section Vote.*/
+
+.section-vote {
+    width: 811px;
+    text-align: center;
+    padding: 192px 0 0;
+}
+
+.section-vote>h2 {
+    font-size: 60px;
+    line-height: 1.115;
+    letter-spacing: 3px;
+}
+
+.section-vote>p {
+    width: 580px;
+    margin: 42px auto 0;
+}
+
+.section-vote>.image-container {
+    border-radius: 15px;
+    filter: drop-shadow(0px 13px 15px rgba(0, 0, 0, 0.1));
+    margin: 78px 0 -127px 1px;
+}
+
+/* Section List.*/
+
+.section-list {
+    padding: 303px 0 188px;
+}
+
+.section-list-container {
+    display: grid;
+    grid: 1fr / repeat(2, 1fr);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.section-list-container+.section-list-container {
+    margin-top: 115px;
+}
+
+.section-list h3 {
+    width: 380px;
+}
+
+.section-list p {
+    width: 380px;
+    margin-top: 12px;
+}
+
+.section-list-container>div:nth-of-type(2)>.image-container {
+    width: 454px;
+    height: 294px;
+}
+
+.section-list-container>div:nth-of-type(3)>.image-container {
+    width: 429px;
+    height: 250px;
+}
+
+.section-list-container>div:nth-of-type(6)>.image-container {
+    width: 445px;
+    height: 330px;
+}
+
+/* Section Outro.*/
+
+.section-outro {
+    width: 900px;
+    text-align: center;
+    padding: 130px 0;
+}
+
+.section-outro h2 {
+    font-size: 106px;
+    line-height: 1.04;
+    letter-spacing: 4px;
+    margin: 0 auto;
+}
+
+.section-outro .button-reference {
+    margin-top: 30px;
+}
+
+.section-outro .tiny-text {
+    margin-top: 14px;
+}
